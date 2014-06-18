@@ -1,0 +1,46 @@
+﻿Построение начато 20.05.2014 16:38:34.
+     1>Проект "C:\COM\InProcerver\ИГРА ПЯТНАШКИ\ИГРА ПЯТНАШКИ.vcxproj" в узле 2 (целевые объекты build).
+     1>PrepareForBuild:
+         Создание каталога "C:\Users\ed\Documents\Visual Studio 2010\Projects\Release\".
+       InitializeBuildStatus:
+         Создание "Release\ИГРА ПЯТНАШКИ.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D _ATL_STATIC_REGISTRY /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\ИГРА ПЯТНАШКИ.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D _ATL_STATIC_REGISTRY /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\ИГРА ПЯТНАШКИ.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt barleyBreak.cpp create_main_window.cpp create_bitmap_for_bk.cpp Desktop.cpp "ИГРА ПЯТНАШКИ.cpp"
+         barleyBreak.cpp
+     1>barleyBreak.cpp(331): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         create_main_window.cpp
+         create_bitmap_for_bk.cpp
+         Desktop.cpp
+         ИГРА ПЯТНАШКИ.cpp
+     1>ИГРА ПЯТНАШКИ.cpp(23): warning C4129: :
+     1>ИГРА ПЯТНАШКИ.cpp(182): warning C4129: s: неизвестная escape-последовательность
+     1>ИГРА ПЯТНАШКИ.cpp(289): warning C4800: BOOL: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>ИГРА ПЯТНАШКИ.cpp(315): warning C4800: BOOL: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>ИГРА ПЯТНАШКИ.cpp(442): warning C4800: BOOL: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>ИГРА ПЯТНАШКИ.cpp(465): warning C4800: BOOL: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\ИГРА ПЯТНАШКИ2.res" "ИГРА ПЯТНАШКИ2.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ed\Documents\Visual Studio 2010\Projects\Release\ИГРА ПЯТНАШКИ.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ИГРА ПЯТНАШКИ.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ed\Documents\Visual Studio 2010\Projects\Release\ИГРА ПЯТНАШКИ.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ed\Documents\Visual Studio 2010\Projects\Release\ИГРА ПЯТНАШКИ.lib" /MACHINE:X86 "Release\ИГРА ПЯТНАШКИ2.res"
+         Release\barleyBreak.obj
+         Release\create_main_window.obj
+         Release\create_bitmap_for_bk.obj
+         Release\Desktop.obj
+         Release\stdafx.obj
+         "Release\ИГРА ПЯТНАШКИ.obj"
+         Создание кода
+     1>c:\com\inprocerver\игра пятнашки\игра пятнашки.cpp(147): warning C4700: использована неинициализированная локальная переменная "pInfo"
+         Создание кода завершено
+         ИГРА ПЯТНАШКИ.vcxproj -> C:\Users\ed\Documents\Visual Studio 2010\Projects\Release\ИГРА ПЯТНАШКИ.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\ed\Documents\Visual Studio 2010\Projects\Release\ИГРА ПЯТНАШКИ.exe;#1" /manifest "Release\ИГРА ПЯТНАШКИ.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Файл "Release\ИГРА ПЯТНАШКИ.unsuccessfulbuild" удаляется.
+         Обращение к "Release\ИГРА ПЯТНАШКИ.lastbuildstate".
+     1>Построение проекта "C:\COM\InProcerver\ИГРА ПЯТНАШКИ\ИГРА ПЯТНАШКИ.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:08.58
