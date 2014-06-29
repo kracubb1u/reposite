@@ -1,0 +1,54 @@
+﻿Построение начато 29.06.2014 5:21:44.
+     1>Проект "C:\COM\InProcerver\ИГРА ПЯТНАШКИ\ИГРА ПЯТНАШКИ.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>InitializeBuildStatus:
+         Создание "Release\ИГРА ПЯТНАШКИ.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\boost_1_55_0 /I"D:\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D _ATL_STATIC_REGISTRY /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\ИГРА ПЯТНАШКИ.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\boost_1_55_0 /I"D:\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D _ATL_STATIC_REGISTRY /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\ИГРА ПЯТНАШКИ.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt barleyBreak.cpp create_main_window.cpp create_bitmap_for_bk.cpp Desktop.cpp "ИГРА ПЯТНАШКИ.cpp"
+         barleyBreak.cpp
+     1>barleyBreak.cpp(25): warning C4101: t1: неиспользованная локальная переменная
+     1>barleyBreak.cpp(667): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>barleyBreak.cpp(673): warning C4244: =: преобразование "double" в "long", возможна потеря данных
+     1>barleyBreak.cpp(901): warning C4018: <: несоответствие типов со знаком и без знака
+     1>barleyBreak.cpp(927): warning C4244: аргумент: преобразование "WCHAR" в "char", возможна потеря данных
+         create_main_window.cpp
+         create_bitmap_for_bk.cpp
+     1>create_bitmap_for_bk.cpp(136): warning C4101: hbm: неиспользованная локальная переменная
+         Desktop.cpp
+         ИГРА ПЯТНАШКИ.cpp
+     1>ИГРА ПЯТНАШКИ.cpp(12): warning C4129: :
+     1>ИГРА ПЯТНАШКИ.cpp(12): warning C4129: :
+     1>ИГРА ПЯТНАШКИ.cpp(43): warning C4018: >: несоответствие типов со знаком и без знака
+     1>ИГРА ПЯТНАШКИ.cpp(46): warning C4018: >: несоответствие типов со знаком и без знака
+     1>ИГРА ПЯТНАШКИ.cpp(275): warning C4800: BOOL: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>ИГРА ПЯТНАШКИ.cpp(320): warning C4018: >: несоответствие типов со знаком и без знака
+     1>ИГРА ПЯТНАШКИ.cpp(323): warning C4018: >: несоответствие типов со знаком и без знака
+     1>ИГРА ПЯТНАШКИ.cpp(341): warning C4018: >: несоответствие типов со знаком и без знака
+     1>ИГРА ПЯТНАШКИ.cpp(344): warning C4018: >: несоответствие типов со знаком и без знака
+     1>ИГРА ПЯТНАШКИ.cpp(697): warning C4102: WM_COMAND: неиспользованная метка
+     1>ИГРА ПЯТНАШКИ.cpp(499): warning C4101: p: неиспользованная локальная переменная
+     1>ИГРА ПЯТНАШКИ.cpp(716): warning C4101: _ms: неиспользованная локальная переменная
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\ИГРА ПЯТНАШКИ2.res" "ИГРА ПЯТНАШКИ2.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\COM\InProcerver\ИГРА ПЯТНАШКИ\Release\ИГРА ПЯТНАШКИ.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ИГРА ПЯТНАШКИ.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\COM\InProcerver\ИГРА ПЯТНАШКИ\Release\ИГРА ПЯТНАШКИ.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\COM\InProcerver\ИГРА ПЯТНАШКИ\Release\ИГРА ПЯТНАШКИ.lib" /MACHINE:X86 "Release\ИГРА ПЯТНАШКИ2.res"
+         Release\barleyBreak.obj
+         Release\create_main_window.obj
+         Release\create_bitmap_for_bk.obj
+         Release\Desktop.obj
+         Release\stdafx.obj
+         "Release\ИГРА ПЯТНАШКИ.obj"
+         Создание кода
+         Создание кода завершено
+         ИГРА ПЯТНАШКИ.vcxproj -> C:\COM\InProcerver\ИГРА ПЯТНАШКИ\Release\ИГРА ПЯТНАШКИ.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\COM\InProcerver\ИГРА ПЯТНАШКИ\Release\ИГРА ПЯТНАШКИ.exe;#1" /manifest "Release\ИГРА ПЯТНАШКИ.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Файл "Release\ИГРА ПЯТНАШКИ.unsuccessfulbuild" удаляется.
+         Обращение к "Release\ИГРА ПЯТНАШКИ.lastbuildstate".
+     1>Построение проекта "C:\COM\InProcerver\ИГРА ПЯТНАШКИ\ИГРА ПЯТНАШКИ.vcxproj" завершено (целевые объекты rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:48.41
